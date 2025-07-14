@@ -25,6 +25,11 @@ const { router: authRouter } = require('./auth');
 app.use('/api', routes);
 app.use('/auth', authRouter);
 
+// Health check endpoint
+app.get('/api/status', (req, res) => {
+  res.json({ status: 'ok' });
+});
+
 // Placeholder route
 app.get('/', (req, res) => {
   res.send('Futuristic AI Web Backend Running');
