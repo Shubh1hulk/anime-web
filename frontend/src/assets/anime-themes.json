@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Dragon Ball",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/7/7b/Goku_Dragon_Ball_Super.png",
+    "color": "#f7ca18"
+  },
+  {
+    "name": "One Piece",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Luffy_Anime_Infobox.png",
+    "color": "#0099ff"
+  },
+  {
+    "name": "Bleach",
+    "image": "https://static.wikia.nocookie.net/bleach/images/9/97/Ichigo_Kurosaki_Anime_Infobox.png",
+    "color": "#ff686b"
+  },
+  {
+    "name": "Gintama",
+    "image": "https://static.wikia.nocookie.net/gintama/images/5/5a/Gintoki_Anime_Infobox.png",
+    "color": "#b5b5b5"
+  },
+  {
+    "name": "Castlevania",
+    "image": "https://static.wikia.nocookie.net/castlevania/images/7/7e/Trevor_Belmont_Anime_Infobox.png",
+    "color": "#1a1a2e"
+  }
+]

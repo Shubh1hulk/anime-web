@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #18181c;
+  color: #fff;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.7s cubic-bezier(.77,0,.18,1);
+  box-shadow: 0 0 80px #000a inset;
+}
+
+.landing-content {
+  margin-top: 10vh;
+  background: rgba(24,24,32,0.85);
+  border-radius: 24px;
+  padding: 48px 32px 32px 32px;
+  box-shadow: 0 8px 48px #00f2ff30, 0 0 0 4px #fff2 inset;
+  text-align: center;
+  max-width: 420px;
+  position: relative;
+}
+
+.anime-hero {
+  border-radius: 24px;
+  box-shadow: 0 0 48px #fff6, 0 0 0 4px #fff2;
+  transition: filter 0.4s;
+}
+
+.theme-selector {
+  margin: 24px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.theme-selector button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  transition: box-shadow 0.2s, background 0.2s;
+  box-shadow: 0 2px 8px #0004;
+  outline: none;
+}
+.theme-selector button:focus, .theme-selector button:hover {
+  box-shadow: 0 0 0 3px #fff7;
+  filter: brightness(1.15);
+}
+
+.oracle-greeting {
+  font-family: 'Orbitron', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  font-size: 1.25rem;
+  margin: 32px 0 0 0;
+  color: #ffd700;
+  letter-spacing: 0.04em;
+  text-shadow: 0 2px 12px #00f2ff80, 0 0 2px #fff;
+  animation: oracleAppear 2s cubic-bezier(.77,0,.18,1);
+}
+
+@keyframes oracleAppear {
+  from { opacity: 0; transform: translateY(40px) scale(0.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+footer {
+  margin-bottom: 16px;
+  text-align: center;
+  color: #aaa;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #222;
+}
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 8px;
+}
